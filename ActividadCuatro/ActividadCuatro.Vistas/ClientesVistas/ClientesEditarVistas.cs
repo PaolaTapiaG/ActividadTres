@@ -32,7 +32,7 @@ namespace ActividadCuatro.Vistas.ClientesVistas
             cliente.Direccion = textBox5.Text;
 
             clientebss.EditarClienteBss(cliente);
-            MessageBox.Show("Datos Actualizados");
+            MessageBox.Show("Los datos del cliente estan actualizados ;)");
         }
 
         private void ClientesEditarVistas_Load(object sender, EventArgs e)

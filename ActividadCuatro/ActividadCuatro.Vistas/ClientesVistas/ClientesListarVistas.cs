@@ -46,7 +46,7 @@ namespace ActividadCuatro.Vistas.ClientesVistas
         private void button4_Click(object sender, EventArgs e)
         {
             int IdClienteSeleccionado = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
-            DialogResult result = MessageBox.Show("¿Esta seguro de Eliminar este Cliente?", "Eliminando.....", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show("¿Seguro que desea elimiar a este cliente?", "Este cliente sera eliminado......", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
                 clientebss.EliminarClienteBss(IdClienteSeleccionado);

@@ -33,7 +33,7 @@ namespace ActividadCuatro.Vistas.ClientesVistas
             cliente.Telefono = textBox4.Text;
             cliente.Direccion = textBox5.Text;
             clientebss.InsertarClienteBss(cliente);
-            MessageBox.Show("Se guardó correctamente al Cliente");
+            MessageBox.Show("Se guardó exitosamente al cliente :)");
 
 
 

@@ -47,7 +47,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(71, 426);
+            button1.Location = new Point(158, 426);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(223, 426);
+            button2.Location = new Point(312, 426);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 2;
@@ -67,11 +67,11 @@
             // 
             // button4
             // 
-            button4.Location = new Point(559, 426);
+            button4.Location = new Point(448, 426);
             button4.Name = "button4";
             button4.Size = new Size(94, 29);
             button4.TabIndex = 4;
-            button4.Text = "button4";
+            button4.Text = "ELIMINAR";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
